@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
@@ -24,3 +24,97 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/*MY SOLUTION */
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: rgb(122, 121, 121);
+}
+
+button {
+  padding: 10px;
+}
+
+/*HEADER*/
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 16px;
+  padding: 10px;
+}
+
+/*CONTENT */
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+/*ODIN SOLUTION */
+// body {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// button {
+//   padding: 8px 16px;
+// }
+
+// .content {
+//   flex: 1;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   flex-direction: column;
+//   gap: 16px;
+// }
+
+// a {
+//   color: #666;
+//   text-decoration: none;
+// }
+
+// .header,
+// .footer {
+//   display: flex;
+//   justify-content: space-between;
+//   padding: 16px;
+// }
+
+// .footer {
+//   background: #eee;
+// }
+
+// ul {
+//   display: flex;
+//   list-style: none;
+//   margin: 0;
+//   padding: 0;
+//   gap: 16px;
+// }
